@@ -11,8 +11,13 @@ Distributed under BOOST license. See *LICENSE_1_0.txt*.
 ## Installation notes
 Copy this folder in *libraries* folder of your sketchbooks.
 
+## Dependencies
+- **arduino-srutil**
+- **arduino-util-lib**
+
 ## Usage
-Include *TimerLib.h* in your sketch (file .ino) so Arduino add this library at compilation.
+Include *TimerLib.h* in your sketch (file .ino) so Arduino add this library at compilation. Additionally, include dependencies *SRUtilLib.h* and *UtilLib.h*.
+
 Add *SoftwareTimer.h* to use the software timer in your application.
 
 ## Version History
